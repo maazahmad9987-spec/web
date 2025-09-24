@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Men's Shoes</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color:black;
+  color: #fff;
+  height: 28px;
+  margin: 0px;
+}
+
+.logo a {
+    color: white;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+.icons a {
+  color: #fff;
+  margin-left: 15px;
+  font-size: 18px;
+}
+    
+
+ /* header {
+      background-color: #222;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+    } */
+
+    h1 {
+      margin: 0;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .shoe-card {
+      background-color: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+    }
+
+    .shoe-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .shoe-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .shoe-info {
+      padding: 20px;
+    }
+
+    .shoe-info h2 {
+      font-size: 18px;
+      margin: 0 0 10px;
+    }
+
+    .shoe-info p {
+      margin: 0;
+      color: #888;
+    }
+
+    .price {
+      color: #000;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+
+       .buy-btn {
+  background: #000;
+  color: #fff;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+  
+  margin-left: 140px;
+
+}
+
+.nav-links li a:hover{
+    border-bottom: 2px solid whitesmoke;
+    color: gray
+}
+
+
+
+
+
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 30px 40px;
+  text-align: center;
+  width: 100%;
+  height: 60px;
+}
+
+.footer .socials a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+    /* footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #222;
+      color: white;
+    } */
+  </style>
+</head>
+<body>
+
+       <header class="navbar">
+    <div class="logo">
+        <a href="index.html">WALK AND WEAR</a>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <!-- <li><a href="#">Home</a></li> -->
+        
+        <li><a href="women.html">Women</a></li>
+        
+        <li><a href="man.html">Man</a></li>
+        <li><a href="sport.html">Sports</a></li>
+      </ul>
+    </nav>
+    <!-- <div class="icons">
+      <a href="#">🔍</a>
+      <a href="#">🛒</a>
+    </div> -->
+  </header>
+
+<!-- <header>
+  <h1>Men's Shoes Collection</h1>
+</header> -->
+
+<main class="container">
+  <div class="shoe-card">
+    <img src="kid.jpeg" alt="Sneaker 1">
+    <div class="shoe-info">
+      <h2>White Sports School Shoes</h2>
+      <p>
+Upper Material: vibox 1mm  ATS 
+Lining: Lecra+foam
+In Sock: Mesh+3mm foam
+Sole: PVC
+
+How to Measure Your Shoes Size 
+
+1) Grab a Pen and Paper
+2) Draw an Outline Around Your Foot
+3) Measure the Lenght of Outline (Inches)
+4) Find the Size Chart Given By US
+
+.</p>
+      <p class="price">Rs 1,299,00</p>
+
+      <a href="payment.html" class="buy-btn">Buy Now</a>
+    </div>
+  </div>
+
+  <div class="shoe-card">
+    <img src="kid3.jpeg" alt="Boots 2">
+    <div class="shoe-info">
+      <h2>Formal Sandal</h2>
+      <p>Stylish and graceful girls' formal sandals designed for comfort and special occasions.</p>
+      <p class="price">Rs 1,399,00</p>
+      <a href="payment.html" class="buy-btn">Buy Now</a>
+    </div>
+  </div>
+
+  <div class="shoe-card">
+    <img src="kid1.jpeg" alt="Loafers 3">
+    <div class="shoe-info">
+      <h2>Casual Canvas</h2>
+      <p>Fun and stylish boys' casual canvas shoes, designed for comfort and durability, making them perfect for everyday adventures and playtime.</p>
+      <p class="price">Rs 1,299,00</p>
+
+      <a href="payment.html" class="buy-btn">Buy Now</a>
+    </div>
+  </div>
+
+  <div class="shoe-card">
+    <img src="kid2.jpeg" alt="Sneaker 4">
+    <div class="shoe-info">
+      <h2>Casual Flip Flop </h2>
+      <p>Keep your boys cool and comfortable with our black casual flip-flops, the perfect footwear choice for laid-back summer adventures.</p>
+      <p class="price">Rs 500</p>
+      <a href="payment.html" class="buy-btn">Buy Now</a>
+    </div>
+  </div>
+</main>
+
+
+
+<footer class="footer">
+    <p>© 2025 WALK AND WEAR, Inc. All Rights Reserved.</p>
+    <div class="socials">
+      <a href="#">Instagram</a> |
+      <a href="#">Twitter</a> |
+      <a href="#">Facebook</a>
+    </div>
+  </footer>
+<!-- <footer>
+  &copy; 2025 Men's Shoe Store. All rights reserved.
+</footer> -->
+
+</body>
+</html>
